@@ -112,7 +112,7 @@ ol {
   margin-right: 15px;
 }
 
-.search-form__label-text{
+.search-form__label-text {
   font-size: 18px;
 }
 
@@ -141,7 +141,7 @@ ol {
   margin-bottom: 8px;
 }
 
-.button{
+.button {
   background-color: transparent;
   color: #fff;
   outline: none;
@@ -151,7 +151,7 @@ ol {
   text-align: center;
 }
 
-.button.search-form__submit-button{
+.button.search-form__submit-button {
   margin-top: 20px;
   padding: 6px 74px;
 }
@@ -190,7 +190,7 @@ ol {
   text-transform: uppercase;
 }
 
-.page > .content > .content__details > .title > .content__accent{
+.page > .content > .content__details > .title > .content__accent {
   color: #545050;
 }
 
@@ -217,7 +217,7 @@ ol {
   overflow: hidden;
 }
 
-.content__video-card-description{
+.content__video-card-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
