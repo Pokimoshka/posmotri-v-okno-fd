@@ -215,13 +215,12 @@ ol {
 .page > .content > .content__details > .content__list-container {
   width: 400px;
   height: 298px;
-  overflow-y: scroll;
+  overflow: auto;
   margin-top: 26px;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: #fff;
 }
@@ -264,7 +263,8 @@ ol {
   flex-grow: 1;
 }
 
-.content__card-link:active {
+.content__card-link:active,
+.content__card-link_current {
   background-color: #545050;
 }
 
@@ -284,6 +284,11 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+.result__video-container,
+.content__list-container {
+  position: relative;
 }
 
 /* Кастомный скроллбар */
