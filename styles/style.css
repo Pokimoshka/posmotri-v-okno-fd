@@ -89,6 +89,7 @@ ol {
 .search-form__pseudo-checkbox {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   width: 19px;
   height: 19px;
